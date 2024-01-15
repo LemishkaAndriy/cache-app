@@ -10,8 +10,6 @@ class MainController extends Controller
 {
     public function index()
     {
-        $result = Cache::get('bar');
-
-        return $result;
+        return Cache::get('bar');
     }
 }
